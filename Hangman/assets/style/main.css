@@ -1,0 +1,57 @@
+body {
+    background-color: aqua;
+}
+
+.parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 500px;
+    height: 500px;
+}
+
+.answer-zone {
+    width: fit-content;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.answerzone {
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.the-answer {
+    border-top: 5px solid black;
+    height: 5px;
+    width: 30px;
+}
+
+.letters {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    margin: 3px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hangethemane {
+    position: relative;
+    height: 285px;
+    border: 1px solid black;
+}
+
+#container {
+    text-align: center;
+    margin: 0px auto;
+}
+canvas {
+    text-align: center;
+}
